@@ -16,7 +16,7 @@
             "role": "Developer"
         }
     ],
-    "type": "wordpress-theme",
+    "type": "laravel-library",
     "require": {
         "composer/installers": "~1.0"
     },
