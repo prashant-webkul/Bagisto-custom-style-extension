@@ -1,5 +1,5 @@
 {
-    "name": "webkul/custom-style",
+    "name": "prashant/custom-style",
     "description": "Custom Style Extension",
     "keywords": [
         "bagisto",
@@ -33,7 +33,7 @@
     "extra": {
         "installer-paths": {
             "./packages/Webkul/": [
-                "Webkul/CustomStyle"
+                "Prashant/CustomStyle"
             ]
         },
         "laravel": {

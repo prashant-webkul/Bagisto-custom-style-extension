@@ -3,7 +3,7 @@
 namespace Prashant\CustomStyle\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Webkul\CustomStyle\Providers\EventServiceProvider;
+use Prashant\CustomStyle\Providers\EventServiceProvider;
 
 class CustomStyleServiceProvider extends ServiceProvider
 {
