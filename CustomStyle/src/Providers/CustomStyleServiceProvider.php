@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\CustomStyle\Providers;
+namespace Prashant\CustomStyle\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Webkul\CustomStyle\Providers\EventServiceProvider;
