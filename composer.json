@@ -16,7 +16,6 @@
             "role": "Developer"
         }
     ],
-    "type": "laravel-library",
     "require": {
         "composer/installers": "~1.0"
     },
