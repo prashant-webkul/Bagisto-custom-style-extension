@@ -1,0 +1,44 @@
+{
+    "name": "Bagisto/Custom-Style",
+    "description": "Custom Style Extension",
+    "keywords": [
+        "bagisto",
+        "laravel",
+        "ecommerce",
+        "saas"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prashant Singh",
+            "email": "prashant.singh852@webkul.com",
+            "homepage": "https://github.com/prashant-webkul",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.7",
+        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0",
+        "illuminate/view": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0",
+        "illuminate/cookie": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\CustomStyle\\": "src"
+        }
+    },
+    "autoload-dev": {
+    },
+    "scripts": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\CustomStyle\\CustomStyleServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
