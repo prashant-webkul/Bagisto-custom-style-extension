@@ -38,7 +38,7 @@
         },
         "laravel": {
             "providers": [
-                "Webkul\\CustomStyle\\CustomStyleServiceProvider"
+                "Webkul\\CustomStyle\\Providers\\CustomStyleServiceProvider"
             ]
         }
     },
