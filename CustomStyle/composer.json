@@ -32,8 +32,8 @@
     },
     "extra": {
         "installer-paths": {
-            "packages/Webkul/{$name}": [
-                "vendor/package"
+            "./packages/Webkul/": [
+                "Webkul/CustomStyle"
             ]
         },
         "laravel": {
