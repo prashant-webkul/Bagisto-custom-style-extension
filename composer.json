@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Webkul\\CustomStyle\\": "src"
+            "Webkul\\CustomStyle\\": "src/"
         }
     },
     "autoload-dev": {
