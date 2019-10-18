@@ -1,4 +1,4 @@
-Hey guys!
+Hey guys, this repository is now converted to composer extension use command **composer require prashant-webkul/custom-style**!
 
 Kudos if you have reached till here. This package is generic implementation of providing your own styles in Bagisto's shop and Admin's package.
 
