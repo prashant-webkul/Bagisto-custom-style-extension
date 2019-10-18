@@ -1,9 +1,9 @@
 <?php
 
-namespace Prashant\CustomStyle\Providers;
+namespace Webkul\CustomStyle\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Prashant\CustomStyle\Providers\EventServiceProvider;
+use Webkul\CustomStyle\Providers\EventServiceProvider;
 
 class CustomStyleServiceProvider extends ServiceProvider
 {

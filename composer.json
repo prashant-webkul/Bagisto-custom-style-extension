@@ -1,5 +1,5 @@
 {
-    "name": "prashant/custom-style",
+    "name": "prashant-webkul/custom-style",
     "description": "Custom Style Extension",
     "keywords": [
         "bagisto",
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Prashant\\CustomStyle\\": "src"
+            "Webkul\\CustomStyle\\": "src"
         }
     },
     "autoload-dev": {
@@ -33,12 +33,12 @@
     "extra": {
         "installer-paths": {
             "./packages/Webkul/": [
-                "Prashant/CustomStyle"
+                "Webkul/CustomStyle"
             ]
         },
         "laravel": {
             "providers": [
-                "Prashant\\CustomStyle\\CustomStyleServiceProvider"
+                "Webkul\\CustomStyle\\CustomStyleServiceProvider"
             ]
         }
     },
