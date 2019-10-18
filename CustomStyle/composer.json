@@ -1,5 +1,5 @@
 {
-    "name": "Bagisto/Custom-Style",
+    "name": "CustomStyle",
     "description": "Custom Style Extension",
     "keywords": [
         "bagisto",
@@ -17,10 +17,7 @@
         }
     ],
     "require": {
-        "php": "^7.1.7",
-        "illuminate/support": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0",
-        "illuminate/view": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0",
-        "illuminate/cookie": "~5.5.0|~5.6.0|~5.7.0|~5.8.0|^6.0"
+        "composer/installers": "~1.0"
     },
     "require-dev": {
     },
@@ -34,6 +31,11 @@
     "scripts": {
     },
     "extra": {
+        "installer-paths": {
+            "packages/Webkul/{$name}": [
+                "vendor/package"
+            ]
+        },
         "laravel": {
             "providers": [
                 "Webkul\\CustomStyle\\CustomStyleServiceProvider"
